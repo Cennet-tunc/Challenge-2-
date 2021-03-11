@@ -1,0 +1,22 @@
+/* Mobile first, iPhone 6/7/8*/
+@media only screen and (min-width: 375px) {
+
+body {
+	display: grid;
+	height: 100%;
+	text-align: center;
+	/*background-image: url('Afbeeldingen/ochtend.jpg');*/
+
+}
+
+#time {
+	color: white;
+	font-family: Verdana;
+	font-size: 150px;
+	margin-top: 50%;
+}
+
+
+
+}
+
