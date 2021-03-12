@@ -45,4 +45,7 @@ function dayandnight(){
 
    dayandnight();
 
-   
+
+   var date = new Date();
+   document.getElementById("date").innerHTML = date.toLocaleDateString();
+
