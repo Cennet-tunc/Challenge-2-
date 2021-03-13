@@ -36,4 +36,17 @@ body {
 	}
 }
 
+@media only screen and (min-width: 768px){
+	#time {
+		font-size: 110px;
+	}
+
+	#date {
+		font-size: 50px;
+		
+	}
+	}
+
+}
+
 
