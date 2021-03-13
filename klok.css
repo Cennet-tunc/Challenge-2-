@@ -36,6 +36,9 @@ body {
 	}
 }
 
+}
+
+/*iPad*/
 @media only screen and (min-width: 768px){
 	#time {
 		font-size: 110px;
@@ -45,8 +48,6 @@ body {
 		font-size: 50px;
 		
 	}
-	}
-
 }
 
 
