@@ -2,7 +2,7 @@
 @media only screen and (min-width: 375px) {
 
 body {
-	display: flex;
+	display: grid;
 	height: 100%;
 	text-align: center;
 	justify-content: center;
@@ -21,7 +21,19 @@ body {
 	font-size: 90px;
 }
 
-
-
+.astronaut {
+	position: absolute;
+	top:-40px;
+	left: 0px;
+	animation-name: fly;
+	animation-duration: 30s;
+	margin-top: 100%;
 }
+
+@keyframes fly{
+		from {transform: translateX(0);}
+		to{transform: translateX(667px);}
+	}
+}
+
 
