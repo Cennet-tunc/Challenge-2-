@@ -36,6 +36,31 @@ body {
 	}
 }
 
+/*iPad*/
+@media only screen and (min-width: 768px){
+	#time {
+		font-size: 100px;
+	}
+
+	#date {
+		font-size: 60px;
+	}
+
+	.astronaut {
+		top: -25%;
+	}
+
+	@keyframes fly {
+		from {transform: translateX(0);}
+		to {transform: translateX(510px);}
+	}
+}
+
+/*Laptop with touch*/
+@media only screen and (min-width: 1280px){
+
+}
+
 
 
 
