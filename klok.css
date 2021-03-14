@@ -1,5 +1,4 @@
 /* Mobile first, iPhone 6/7/8*/
-@media only screen and (min-width: 375px) {
 
 body {
 	display: grid;
@@ -34,7 +33,6 @@ body {
 		from {transform: translateX(0);}
 		to{transform: translateX(140px);}
 	}
-}
 
 /*iPad*/
 @media only screen and (min-width: 768px){
