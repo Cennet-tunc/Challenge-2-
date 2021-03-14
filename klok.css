@@ -72,12 +72,12 @@ body {
 	}
 
 	.astronaut {
-		top:-95%;
+		top:-65%;
 	}
 
 	@keyframes fly {
 		from {transform: translateX(0);}
-		to {transform: translateX(1030px);}
+		to {transform: translateX(1100px);}
 	}
 }
 
@@ -85,10 +85,14 @@ body {
 @media only screen and (min-width: 1920px){
 	#time {
 		margin-top: 40%;
+		font-size: 80px;
 	}
 
+	#date {
+		font-size: 50px;
+	}
 	.astronaut {
-		top: -140%;
+		top: -50%;
 	}
 
 	@keyframes fly {
