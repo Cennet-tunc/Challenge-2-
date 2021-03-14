@@ -26,17 +26,16 @@ body {
 	top:-40px;
 	left: 0px;
 	animation-name: fly;
-	animation-duration: 30s;
+	animation-duration: 15s;
 	margin-top: 110%;
 }
 
 @keyframes fly{
 		from {transform: translateX(0);}
-		to{transform: translateX(200px);}
+		to{transform: translateX(140px);}
 	}
 }
 
-}
 
 
 
