@@ -25,7 +25,7 @@ body {
 	top: -15%;
 	left: 0px;
 	animation-name: fly;
-	animation-duration: 15s;
+	animation-duration: 5s;
 	margin-top: 110%;
 }
 
@@ -42,20 +42,26 @@ body {
 /*iPad*/
 @media only screen and (min-width: 768px){
 	#time {
-		font-size: 100px;
+		font-size: 50px;
+		margin-top: 10%;
 	}
 
 	#date {
-		font-size: 60px;
+		font-size: 20px;
 	}
 
 	.astronaut {
-		top: -25%;
+		margin-top: 45%;
+	}
+
+	.footer img {
+		width: 10%;
+		height: 20%;
 	}
 
 	@keyframes fly {
 		from {transform: translateX(0);}
-		to {transform: translateX(510px);}
+		to {transform: translateX(680px);}
 	}
 }
 
