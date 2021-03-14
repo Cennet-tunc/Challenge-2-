@@ -43,7 +43,7 @@ body {
 @media only screen and (min-width: 768px){
 	#time {
 		font-size: 50px;
-		margin-top: 40%;
+		margin-top: 30%;
 	}
 
 	#date {
