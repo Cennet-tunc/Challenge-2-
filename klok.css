@@ -10,19 +10,19 @@ body {
 #time {
 	color: white;
 	font-family: Verdana;
-	font-size: 50px;
-	margin-top: 50%;
+	font-size: 35px;
+	margin-top: 20%;
 }
 
 #date {
 	color: white;
 	font-family: Verdana;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .astronaut {
 	position: absolute;
-	top:-40px;
+	top:-30%;
 	left: 0px;
 	animation-name: fly;
 	animation-duration: 15s;
