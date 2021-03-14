@@ -10,28 +10,33 @@ body {
 #time {
 	color: white;
 	font-family: Verdana;
-	font-size: 35px;
+	font-size: 50px;
 	margin-top: 20%;
 }
 
 #date {
 	color: white;
 	font-family: Verdana;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .astronaut {
 	position: absolute;
-	top:-30%;
+	top: -15%;
 	left: 0px;
 	animation-name: fly;
 	animation-duration: 15s;
 	margin-top: 110%;
 }
 
+.footer img {
+	width: 20%;
+	height: 20%;
+}
+
 @keyframes fly{
 		from {transform: translateX(0);}
-		to{transform: translateX(140px);}
+		to{transform: translateX(300px);}
 	}
 
 /*iPad*/
