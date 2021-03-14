@@ -58,9 +58,36 @@ body {
 
 /*Laptop with touch*/
 @media only screen and (min-width: 1280px){
+	#time {
+		margin-top: 30%;
+	}
 
+	.astronaut {
+		top:-95%;
+	}
+
+	@keyframes fly {
+		from {transform: translateX(0);}
+		to {transform: translateX(1030px);}
+	}
 }
 
+/*Groot scherm*/
+@media only screen and (min-width: 1920px){
+	#time {
+		margin-top: 40%;
+	}
+
+	.astronaut {
+		top: -140%;
+	}
+
+	@keyframes fly {
+		from {transform: translateX(0);}
+		to {transform: translateX(1700px);}
+	}
+
+}
 
 
 
